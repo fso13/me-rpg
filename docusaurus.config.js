@@ -80,11 +80,19 @@ const config = {
                 label: 'Система боя',
                 to: '/combat-system',
               },
+              {
+                label: 'Система ран',
+                to: '/wound-system',
+              },
             ],
           },
           {
             title: 'Справочники',
             items: [
+              {
+                label: 'Справочник (термины и формулы)',
+                to: '/reference',
+              },
               {
                 label: 'Магия',
                 to: '/magic-system',

@@ -18,6 +18,7 @@ const sidebars = {
       label: 'Бой и механики',
       items: [
         'combat-system',
+        'wound-system',
       ],
     },
     {
@@ -45,6 +46,7 @@ const sidebars = {
       type: 'category',
       label: 'Справочники',
       items: [
+        'reference',
         'bestiary',
       ],
     },
