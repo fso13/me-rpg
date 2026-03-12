@@ -9,8 +9,8 @@ const config = {
   title: 'Me RPG',
   tagline: 'Упрощённая и динамичная настольная ролевая система',
 
-  url: 'https://me-rpg.example.com',
-  baseUrl: '/',
+  url: 'https://fso13.github.io',
+  baseUrl: '/me-rpg/',
 
   organizationName: 'me-rpg',
   projectName: 'me-rpg',
