@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ядро системы — EZY-system</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">EZY: SYSTEM</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="core.html">Ядро</a></li>
+          <li><a href="modules.html">Модули</a></li>
+          <li><a href="combat.html">Бой</a></li>
+          <li><a href="spells.html">Заклинания</a></li>
+          <li><a href="fantasy.html">Фэнтези</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Ядро системы</h1>
+
+      <h2>Обозначение костей</h2>
+      <p><span class="dice">d</span> — кость, цифра до неё — количество, после — грани. <span class="dice">2d6</span> = две шестигранные кости.</p>
+
+      <h2>Главный бросок</h2>
+      <p><strong>2d6</strong> против заявленной Сложности (СЛ). Результаты обоих d6 суммируются.</p>
+      <ul>
+        <li><strong>6 на одном d6</strong> → бросок 1d4, добавляется к результату. Значение d4 = Очки Опыта.</li>
+        <li><strong>1 на одном d6</strong> → бросок 1d4, вычитается из результата.</li>
+        <li><strong>1 и 6 одновременно</strong> → дополнительных бросков нет.</li>
+      </ul>
+      <p>К результату добавляется <strong>Характеристика + Навык</strong> = <strong>Сумма Броска (СБ)</strong>. Если СБ &gt; СЛ — успех.</p>
+
+      <h2>Критические результаты</h2>
+      <ul>
+        <li><strong>Два 6</strong> — критический успех, проверка полностью успешна, +10 Очков Опыта.</li>
+        <li><strong>Два 1</strong> — критический провал, худшие последствия.</li>
+      </ul>
+
+      <h2>Типы бросков</h2>
+      <p>В EZY есть: главный бросок на проверку, броски урона, спасброски, броски по таблицам. Больше никаких проверок нет.</p>
+
+      <h2>11 модулей EZY</h2>
+      <ol>
+        <li>Нарратив</li>
+        <li>Волновое пространство</li>
+        <li>Характеристики</li>
+        <li>Навыки</li>
+        <li>Профессии</li>
+        <li>Расы</li>
+        <li>Снаряжение</li>
+        <li>Броня и Защита</li>
+        <li>Оружие</li>
+        <li>Транспорт</li>
+        <li>Здоровье и лечение</li>
+      </ol>
+      <p>Модули должны дополнять друг друга, но игра не должна ломаться при отключении любого из них.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">EZY-system — vk.com/ezy_s</div>
+  </footer>
+</body>
+</html>

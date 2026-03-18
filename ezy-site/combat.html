@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бой — EZY-system</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">EZY: SYSTEM</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="core.html">Ядро</a></li>
+          <li><a href="modules.html">Модули</a></li>
+          <li><a href="combat.html">Бой</a></li>
+          <li><a href="spells.html">Заклинания</a></li>
+          <li><a href="fantasy.html">Фэнтези</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Как проходит бой</h1>
+
+      <h2>Инициатива</h2>
+      <p><strong>Реакция + 2d6</strong> + модификаторы. Экстремальный успех — два действия до боя. Экстремальный провал — в конец очереди, пропуск первого хода.</p>
+      <p>Ход = 3 секунды. Раунд = 3 секунды.</p>
+
+      <h2>В ходу</h2>
+      <ul>
+        <li><strong>1 действие + 1 перемещение</strong></li>
+        <li>Действие: любая проверка навыка (~3 сек), атака, отложить действие</li>
+        <li>СКА оружия — количество атак за ход (1–4)</li>
+      </ul>
+
+      <h2>Дальний бой</h2>
+      <p><strong>2d6 + Навык Дальнего Боя + Реакция</strong> против таблицы СЛ по дистанции.</p>
+      <p>Типы: одиночный выстрел, вслепую, по-македонски (две руки), автоматический огонь, подавление, прицельный выстрел.</p>
+      <p>Прицел в голову: +8 СЛ, СКА=1, удвоение урона сквозь ОС шлема.</p>
+
+      <h2>Ближний бой</h2>
+      <p><strong>Атакующий:</strong> 2d6 + Ловкость + Навык ближнего боя</p>
+      <p><strong>Защищающийся:</strong> 2d6 + Ловкость + Навык уклонения</p>
+      <p>При ничьей побеждает защищающийся.</p>
+      <p>Действия: Захват, Удушение, Бросок.</p>
+
+      <h2>Урон и травмы</h2>
+      <p>Два 6+ на костях урона → Критическое попадание: +5 бонусного урона в ПЗ.</p>
+      <p>Четыре и более 6+ → 1 критическая травма (без бонусного урона).</p>
+      <p>Таблица травм: 2d6 определяет тип (перелом руки/ноги, отделение конечности, разрыв лёгкого и т.д.).</p>
+
+      <h2>Состояния</h2>
+      <ul>
+        <li><strong>Оглушён/Ослеплён</strong> — Сопротивление пыткам СЛ18, нет действий, СКО=1</li>
+        <li><strong>Сбит с ног</strong> — только «Прийти в себя»</li>
+        <li><strong>Обездвижен</strong> — нет перемещения и действий</li>
+        <li><strong>Горение</strong> — урон растёт каждый ход</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">EZY-system — vk.com/ezy_s</div>
+  </footer>
+</body>
+</html>

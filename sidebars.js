@@ -44,10 +44,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'EZY-system',
+      items: [
+        'ezy-system',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Справочники',
       items: [
         'reference',
         'bestiary',
+        'combat-comparison',
+        'combat-detail-ezy-cairn-troika',
       ],
     },
   ],
