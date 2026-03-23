@@ -47,6 +47,15 @@ const sidebars = {
       label: 'EZY-system',
       items: [
         'ezy-system',
+        'ezy-skyrim-module',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Приключения',
+      items: [
+        'adventure-shadow-over-mill',
+        'adventure-shadow-over-mill-mystery',
       ],
     },
     {
